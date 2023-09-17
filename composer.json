@@ -1,0 +1,36 @@
+{
+    "name": "melsaka/postify",
+    "description": "",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Melsaka\\Postify\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "elsaka",
+            "email": "sakaz8050@gmail.com",
+            "homepage": "https://github.com/melsaka",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "laravel/framework": "^8.75",
+        "melsaka/categorist": "dev-main",
+        "melsaka/commentable": "dev-main",
+        "melsaka/mediafile": "dev-main",
+        "melsaka/metable": "dev-main"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Melsaka\\Postify\\PostifyServiceProvider"
+            ]
+        }
+    }
+}
